@@ -3,13 +3,14 @@ pipeline {
 
   agent {
     label 'WORKSTATION'
-    }
+  }
 
-  triggers {
+   triggers {
 
       pollSCM('*/1 * * * *')
 
-       }
+
+   }
 
 
     stages{
@@ -30,7 +31,4 @@ pipeline {
       }
     }
 
-}
-
-}
-
+  }
