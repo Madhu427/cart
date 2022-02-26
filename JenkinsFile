@@ -1,8 +1,10 @@
 pipeline{
 
-  agent{
-    label 'WORKSTATION'
-    }
+ agent any
+
+//   agent{
+//     label 'WORKSTATION'
+//     }
 
   triggers {
 
