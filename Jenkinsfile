@@ -1,7 +1,7 @@
 @Library('roboshop') _
 
-nodejs.info 'Starting'
-nodejs.warning 'Nothing to do!'
+log.info 'Starting'
+log.warning 'Nothing to do!'
 
 
 pipeline {
