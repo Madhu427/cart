@@ -1,6 +1,6 @@
 @Library('roboshop') _
 
-env.COMPONENT = "cart"
+env.COMPONENT = "cart1"
 env.BUILD_LABEL = "WORKSTATION"
 nodejs()
 
