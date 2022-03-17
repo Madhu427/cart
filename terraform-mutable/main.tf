@@ -8,6 +8,4 @@ module "app-module" {
   APP_PORT       = 8080
   LB_RULE_PRIORITY = 100
   LB_PRIVATE     = true
-
-
 }
