@@ -3,4 +3,4 @@ variable "INSTANCE_TYPE" {}
 variable "COMPONENT" {}
 variable "ENV" {}
 variable "APP_VERSION" {}
-0
+variable "APP_PORT" {}
