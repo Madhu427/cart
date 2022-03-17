@@ -5,5 +5,5 @@ module "app-module" {
   COMPONENT      = var.COMPONENT
   ENV            = var.ENV
   APP_VERSION    = var.APP_VERSION
-  APP_PORT = 808
+  APP_PORT = 8080
 }
