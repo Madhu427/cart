@@ -2,5 +2,5 @@
 
 env.COMPONENT = "cart"
 env.BUILD_LABEL = "WORKSTATION"
-nodejs()
+immutable_nodejs()
 
