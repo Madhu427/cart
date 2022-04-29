@@ -18,4 +18,5 @@ terraform {
     key    = "ami/cart/terraform.tfstate"
     region = "us-east-1"
   }
+}
 
