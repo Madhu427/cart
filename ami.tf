@@ -1,5 +1,5 @@
 module "cart-ami" {
-  source = "https://github.com/Madhu427/terraform-ami.git"
+  source = "git::https://github.com/Madhu427/terraform-ami.git"
   COMPONENT = "cart"
   APP_VERSION = var.APP_VERSION
 }
