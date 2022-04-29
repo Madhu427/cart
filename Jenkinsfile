@@ -3,5 +3,6 @@
 env.COMPONENT = "cart"
 env.BUILD_LABEL = "WORKSTATION"
 immutable_nodejs()
-ls
+sh "ls"
+
 
