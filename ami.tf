@@ -2,8 +2,6 @@ module "cart-ami" {
   source = "git::https://github.com/Madhu427/terraform-ami.git"
 }
 
-variable "APP_VERSION" {}
-
 provider "aws" {
   region = "us-east-1"
 }
